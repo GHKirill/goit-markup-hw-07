@@ -32,35 +32,3 @@
   color: $secondary-black-color;
 }
 }
-.social {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  width: 206px;
-  justify-content: space-between;
-  align-items: center;
-  margin: 16px auto 0;
-}
-.social-item {
-  &__link {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  background-color: inherit;
-  color: $gray-color-links;
-  @include transition(background-color, color);
-}
-&__svg {
-  width: 20px;
-  height: 20px;
-  fill: currentColor;
-}
-&__link:hover,
-&__link:focus {
-  background-color: $accent-color;
-  color: $primary-white-color;
-}
-}

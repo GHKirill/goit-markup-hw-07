@@ -3,26 +3,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: $gray-color-header-border;
-}
-.logo {
-  color: var(--logo-black-color);
-  font-family: $font-raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
-  color: $accent-color;
-  padding: 24px 0;
-  margin-right: 93px;
-  &__accent {
-  color: $logo-black-color;
-}
-}
-.container--flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  &--portfolio {
+    border-bottom: $gray-color-header-border;
+  }
 }
 .navigation {
   display: flex;
@@ -66,7 +49,6 @@
   border-radius: 2px;
   background-color: $accent-color;
 }
-
 }
 .navigation-list__item {
   margin-right: 50px;

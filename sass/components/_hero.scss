@@ -12,13 +12,6 @@
   background-position: center;
   background-size: cover;
 }
-.section-title {
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-}
 .section-title--hero {
   font-weight: 900;
   font-size: 44px;
@@ -28,31 +21,11 @@
   width: 696px;
   margin: 0 auto 30px auto;
 }
-.button {
-  color: inherit;
-  font: inherit;
-  background-color: $accent-color;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(30 / 16);
-  letter-spacing: 0.06em;
-  padding: 10px 10px;
-  border: 0px solid transparent;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  display: flex;
-  margin: 0 auto;
-  min-width: 206px;
-  height: 50px;
-  justify-content: center;
-  align-items: center;
-
-&--hero {
+.button--hero {
   min-width: 216px;
   @include transition(background-color);
-}
-&--hero:hover,
-&--hero:focus {
+  &:hover,
+  &:focus {
   background-color: $accent-color-main-button;
 }
 &:hover,
@@ -60,3 +33,5 @@
   cursor: pointer;
 }
 }
+
+

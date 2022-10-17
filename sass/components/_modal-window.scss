@@ -58,11 +58,11 @@
   left: 0;
   width: 11px;
   height: 11px;
-}
-}
-.modal-button:hover,
-.modal-button:focus {
+  }
+  &:hover,
+&:focus {
   fill: $accent-color;
+}
 }
 .modal-proposal {
   margin-bottom: 12px;
@@ -199,7 +199,4 @@
   clip-path: inset(50%);
   margin: -1px;
 }
-}
-.button--personal-info {
-  color: $primary-white-color;
 }

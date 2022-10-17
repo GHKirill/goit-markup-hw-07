@@ -2,18 +2,6 @@
   background-color: $secondary-back-ground-color;
   padding: 60px 0;
 }
-.container--flex-baseline {
-  display: flex;
-  align-items: baseline;
-}
-.logo--margin-down {
-  display: inline-block;
-  padding: 0;
-  margin: 0 0 20px 0;
-}
-.logo__accent--white {
-  color: $primary-white-color;
-}
 .address-list {
   list-style: none;
   padding: 0;
@@ -38,11 +26,11 @@
   cursor: pointer;
 }
 }
-.join {
+.footer__join {
   width: 206px;
   margin-left: 70px;
 }
-.join-title {
+.footer__join-title {
   color: $primary-white-color;
   font-weight: 700;
   line-height: calc(16 / 14);
@@ -51,18 +39,13 @@
   vertical-align: text-bottom;
   margin-bottom: 20px;
 }
-.social-item__link--footer {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-.social-item__svg--footer {
-  fill: $primary-white-color;
-}
-.sign {
+
+.footer-sign {
   display: flex;
   align-items: flex-end;
   margin-left: 94px;
 }
-.sign-info {
+.footer-sign-info {
   display: flex;
   flex-direction: column;
 
