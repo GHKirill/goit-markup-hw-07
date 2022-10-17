@@ -910,7 +910,7 @@ a {
 }
 
 .button--personal-info {
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 .button--personal-info:hover, .button--personal-info:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
