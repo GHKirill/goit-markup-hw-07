@@ -187,7 +187,14 @@ a {
   background-position: center;
   background-size: cover;
 }
-.hero-title {
+.section-title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.section-title--hero {
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -256,7 +263,6 @@ a {
   width: 70px;
   height: 70px;
 }
-
 .advantages-card__title {
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -273,9 +279,6 @@ a {
 /* Activities */
 .activities {
   padding-bottom: 94px;
-}
-.activities-title {
-  margin-bottom: 50px;
 }
 .activities-list {
   list-style: none;
@@ -310,23 +313,11 @@ a {
   height: 70px;
   width: 370px;
 }
-/*team+activities*/
 
-.activities-title,
-.team-title,
-.clients-title {
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
-  letter-spacing: 0.03em;
-}
 /* team */
 .team {
   background-color: var(--gray-color);
   padding: 94px 0;
-}
-.team-title {
-  margin-bottom: 44px;
 }
 .team-list {
   list-style: none;
@@ -395,7 +386,7 @@ a {
   padding: 94px 0;
   background-color: var(--primary-white-color);
 }
-.clients-title {
+.section-title--clients {
   margin-bottom: 50px;
 }
 .clients-list {
