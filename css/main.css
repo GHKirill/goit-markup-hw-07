@@ -263,6 +263,7 @@ a {
 }
 .button--personal-info {
   color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .social {
@@ -909,16 +910,6 @@ a {
   margin: -1px;
 }
 
-<<<<<<< HEAD
-.button--personal-info {
-  color: var(--primary-white-color);
-}
-.button--personal-info:hover, .button--personal-info:focus {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-=======
->>>>>>> SASS_branch_02
 .navigation-list__link--portfolio-page {
   color: #2196f3;
 }
