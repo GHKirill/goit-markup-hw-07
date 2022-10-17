@@ -2,7 +2,6 @@
   background-color: $secondary-back-ground-color;
   padding: 60px 0;
 }
-
 .container--flex-baseline {
   display: flex;
   align-items: baseline;
@@ -15,7 +14,6 @@
 .logo__accent--white {
   color: $primary-white-color;
 }
-
 .address-list {
   list-style: none;
   padding: 0;
@@ -32,7 +30,6 @@
 }
   &__link {
   font-style: normal;
-  // transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   @include transition();
 }
   &__link:hover,
@@ -41,26 +38,6 @@
   cursor: pointer;
 }
 }
-// .address-list__link {
-//   color: $primary-white-color;
-//   line-height: calc(24 / 14);
-//   letter-spacing: 0.03em;
-// }
-// .address-list__link--contact {
-//   display: block;
-//   margin-top: 10px;
-//   color: $white-alfa-color;
-// }
-// .address-list__link {
-//   font-style: normal;
-//   // transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-//   @include transition();
-// }
-// .address-list__link:hover,
-// .address-list__link:focus {
-//   color: $accent-color;
-//   cursor: pointer;
-// }
 .join {
   width: 206px;
   margin-left: 70px;
@@ -112,28 +89,6 @@
   background-color: transparent;
 }
 }
-// .sign-info__proposal {
-//   color: $primary-white-color;
-//   font-weight: 700;
-//   line-height: calc(16 / 14);
-//   letter-spacing: 0.03em;
-//   text-transform: uppercase;
-//   vertical-align: text-bottom;
-//   margin-bottom: 20px;
-// }
-// .sign-info__input {
-//   width: 358px;
-//   height: 50px;
-//   font-family: inherit;
-//   font-size: 16px;
-//   line-height: calc(20 / 16);
-//   letter-spacing: 0.03em;
-//   text-indent: 12px;
-//   color: rgba(255, 255, 255, 0.6);
-//   border: 1px solid rgba(255, 255, 255, 0.3);
-//   border-radius: 4px;
-//   background-color: transparent;
-// }
 .button__logo {
   width: 24px;
   height: 24px;
