@@ -2,7 +2,7 @@
   max-width: 1600px;
   margin: 0 auto;
   background-color: #c4c4c4;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
   text-align: center;
   height: 600px;
   padding: 200px 0;
@@ -31,7 +31,7 @@
 .button {
   color: inherit;
   font: inherit;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -46,16 +46,20 @@
   height: 50px;
   justify-content: center;
   align-items: center;
-}
-.button--hero {
+
+&--hero {
   min-width: 216px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  // transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @include transition(background-color);
 }
-.button--hero:hover,
-.button--herp:focus {
-  background-color: var(--accent-color-main-button);
+&--hero:hover,
+&--hero:focus {
+  background-color: $accent-color-main-button;
 }
-.button:hover,
-.button:focus {
+&:hover,
+&:focus {
   cursor: pointer;
+}
+
+
 }

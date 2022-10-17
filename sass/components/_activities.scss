@@ -10,19 +10,18 @@
 }
 .activities-item {
   position: relative;
-}
-.activities-item__image {
+  &__image {
   display: block;
 }
-.activities-item__description {
+  &__description {
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
   margin: 0;
   padding: 0;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
 }
-.activities-item__background {
+  &__background {
   position: absolute;
   bottom: 0;
   margin: 0;
@@ -34,3 +33,27 @@
   height: 70px;
   width: 370px;
 }
+}
+// .activities-item__image {
+//   display: block;
+// }
+// .activities-item__description {
+//   text-transform: uppercase;
+//   font-weight: 700;
+//   text-align: center;
+//   margin: 0;
+//   padding: 0;
+//   color: $primary-white-color;
+// }
+// .activities-item__background {
+//   position: absolute;
+//   bottom: 0;
+//   margin: 0;
+//   padding: 0;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background-color: rgba(47, 48, 58, 0.8);
+//   height: 70px;
+//   width: 370px;
+// }

@@ -9,7 +9,7 @@
 .project {
   display: inline-block;
   width: 370px;
-  border: 1px solid var(--gray-color-photo-border);
+  border: 1px solid $gray-color-photo-border;
 }
 .project-photo__image {
   display: block;
@@ -30,10 +30,11 @@
   letter-spacing: 0.06em;
   text-align: left;
   background-color: rgba(33, 150, 243, 0.9);
-  color: var(--primary-white-color);
-  transition-property: transform;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  color: $primary-white-color;
+  // transition-property: transform;
+  // transition-duration: 250ms;
+  // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include transition(transform);
 }
 
 .project:hover .project-photo__description,
@@ -41,14 +42,14 @@
   transform: translateY(-300px);
 }
 .project-description__name {
-  color: var(--primary-black-color);
+  color: $primary-black-color;
   font-size: 18px;
   line-height: calc(26 / 18);
   letter-spacing: 0.06em;
   margin-bottom: 4px;
 }
 .project-description__type {
-  color: var(--secondary-black-color);
+  color: $secondary-black-color;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
