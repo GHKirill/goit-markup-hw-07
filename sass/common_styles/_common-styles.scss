@@ -1,8 +1,8 @@
 body {
   /* max-width: 1600px; */
-  color: var(--primary-black-color);
-  background-color: var(--primary-white-color);
-  font-family: var(--font-roboto);
+  color: $primary-black-color;
+  background-color: $primary-white-color;
+  font-family: $font-roboto;
   font-size: 14px;
 }
 .list {

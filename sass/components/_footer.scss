@@ -1,8 +1,7 @@
 .footer {
-  background-color: var(--secondary-back-ground-color);
+  background-color: $secondary-back-ground-color;
   padding: 60px 0;
 }
-
 .container--flex-baseline {
   display: flex;
   align-items: baseline;
@@ -13,40 +12,38 @@
   margin: 0 0 20px 0;
 }
 .logo__accent--white {
-  color: var(--primary-white-color);
+  color: $primary-white-color;
 }
-
 .address-list {
   list-style: none;
   padding: 0;
   margin: 0;
-  /* font-style: normal; */
-}
-.address-list__link {
-  color: var(--primary-white-color);
+  &__link {
+  color: $primary-white-color;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 }
-.address-list__link--contact {
+  &__link--contact {
   display: block;
   margin-top: 10px;
-  color: var(--white-alfa-color);
+  color: $white-alfa-color;
 }
-.address-list__link {
+  &__link {
   font-style: normal;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @include transition();
 }
-.address-list__link:hover,
-.address-list__link:focus {
-  color: var(--accent-color);
+  &__link:hover,
+  &__link:focus {
+  color: $accent-color;
   cursor: pointer;
+}
 }
 .join {
   width: 206px;
   margin-left: 70px;
 }
 .join-title {
-  color: var(--primary-white-color);
+  color: $primary-white-color;
   font-weight: 700;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -58,7 +55,7 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 .social-item__svg--footer {
-  fill: var(--primary-white-color);
+  fill: $primary-white-color;
 }
 .sign {
   display: flex;
@@ -68,9 +65,9 @@
 .sign-info {
   display: flex;
   flex-direction: column;
-}
-.sign-info__proposal {
-  color: var(--primary-white-color);
+
+  &__proposal {
+  color: $primary-white-color;
   font-weight: 700;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -78,7 +75,7 @@
   vertical-align: text-bottom;
   margin-bottom: 20px;
 }
-.sign-info__input {
+&__input {
   width: 358px;
   height: 50px;
   font-family: inherit;
@@ -91,12 +88,13 @@
   border-radius: 4px;
   background-color: transparent;
 }
+}
 .button__logo {
   width: 24px;
   height: 24px;
   margin-left: 10px;
 }
 .button--signing {
-  color: var(--primary-white-color);
+  color: $primary-white-color;
   margin-left: 12px;
 }
